@@ -1,0 +1,1 @@
+nokta,birleştir,boru,flow,bulmaca,renk,offline
