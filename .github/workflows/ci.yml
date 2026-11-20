@@ -72,7 +72,7 @@ jobs:
       - name: Web build
         run: flutter build web --release
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: game-010-connect-dots-puzzle-android
           path: |
@@ -81,19 +81,19 @@ jobs:
           if-no-files-found: error
           retention-days: 14
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: game-010-connect-dots-puzzle-debug-symbols
           path: build/symbols
           retention-days: 90
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: game-010-connect-dots-puzzle-web
           path: build/web
           retention-days: 14
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: game-010-connect-dots-puzzle-store-graphics
           path: store/
