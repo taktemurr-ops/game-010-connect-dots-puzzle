@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:game_010_connect_dots_puzzle/core/level_plan.dart';
+import 'package:studio_core/core/level_plan.dart';
 import 'package:game_010_connect_dots_puzzle/game/rules.dart';
 
 /// Level production test (doc 5.3 / 10: "Bölüm üretim testi 50.000 bölüm").
